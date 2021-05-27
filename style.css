@@ -1,0 +1,396 @@
+body {
+    background-color: rgba(255, 255, 255, 0.883);
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #263165 !important;
+}
+
+.nav-link:hover {
+    background-color: #12172e !important;
+}
+
+.sub-msg {
+    font-weight: 200;
+}
+
+.hdr-1 {
+    font-size: 64px;
+}
+
+.log img {
+    width: 70%;
+}
+
+.header {
+    flex: 1;
+    padding-bottom: 05%;
+}
+
+.log {
+    flex: 1;
+}
+
+.cntr {
+    padding-top: 05%;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.hr-header {
+    background-color: black;
+}
+
+.header a {
+    color: black;
+}
+
+.p-2 {
+    border-top: solid 1px black;
+}
+
+.p-2 img {
+    width: 10%;
+}
+
+.p-2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.p-2:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.d-flex {
+    padding-bottom: 04%;
+}
+
+.d-inline-flex img {
+    width: 50%;
+}
+
+.col a:hover {
+    opacity: 0.6;
+}
+
+.CS {
+    font-size: 130px;
+}
+
+@media screen and (max-width:322px) {
+    .hdr-1 {
+        font-size: 34px;
+    }
+    .sub-msg {
+        font-size: 24px;
+    }
+    .display-3 {
+        font-size: 20px !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .flex-xs-column {
+        flex-direction: column;
+    }
+    .navigation {
+        display: none;
+    }
+    .display-2 {
+        font-size: 60px !important;
+    }
+    .display-4 {
+        font-size: 30px !important;
+        text-align: center;
+    }
+    .bootstrap {
+        width: 100px;
+        height: 100px;
+    }
+    .display-3 {
+        font-size: 45px !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navigation {
+        display: none;
+    }
+    .tools {
+        display: none;
+    }
+    .p-2 img {
+        width: 40%;
+    }
+    .display-4 {
+        text-align: center;
+    }
+    .bootstrap {
+        width: 200px;
+        height: 200px;
+    }
+    .embed-responsive {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .navigation {
+        display: none;
+    }
+    .p-2 img {
+        width: 40%;
+    }
+    .tools {
+        display: none;
+    }
+    .bootstrap {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.Icon {
+    flex: 1;
+}
+
+.Icon img {
+    width: 40%;
+}
+
+.Skills {
+    margin: 14px;
+}
+
+.navigation {
+    flex: 1;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-right: 12px;
+}
+
+.content {
+    flex: 5;
+    margin-left: 20px;
+}
+
+.container-fluid {
+    padding-top: 02%;
+}
+
+.text-dark:hover {
+    background-color: rgb(243, 241, 241);
+}
+
+.GFX img {
+    width: 20%;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+.btn-primary {
+    background-color: #263165 !important;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+.col img {
+    width: 100%;
+    margin-top: 8px;
+    margin-left: -10px;
+    vertical-align: middle;
+}
+
+.navbar {
+    opacity: 0.9 !important;
+}
+
+.GraphicDesign {
+    background-color: rgba(255, 255, 255, 0.883) !important;
+}
+
+.embed-responsive {
+    margin: 08px;
+}
+
+.p-4 a {
+    color: black;
+    text-decoration: none;
+}
+
+.p-4 h2 {
+    font-size: 24px;
+}
+
+.p-4:hover {
+    opacity: 0.8;
+}
+
+.log {
+    -webkit-animation: ProfilePic 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 300ms both;
+    animation: ProfilePic 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 300ms both;
+}
+
+@-webkit-keyframes ProfilePic {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1.0;
+    }
+}
+
+@keyframes ProfilePic {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1.0;
+    }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    scale: 150px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa:hover {
+    background-color: rgba(233, 233, 233, 0);
+}
+
+.row img {
+    width: 80%;
+    margin-top: 8px;
+    margin-left: -10px;
+    vertical-align: middle;
+}
+
+.WebD {
+    padding-top: 65px;
+    margin: 24px;
+}
+
+.imgweb {
+    -webkit-box-shadow: 18px 4px 33px -9px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 18px 4px 33px -9px rgba(0, 0, 0, 0.35);
+    box-shadow: 18px 4px 33px -9px rgba(0, 0, 0, 0.35);
+}
+
+.bootstrap {
+    width: 200px;
+    height: 200px;
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    }
+
+    .card{
+        transition: transform .2s;
+        margin: 40px;
+        -webkit-box-shadow: -1px 9px 48px -19px rgba(0, 0, 0, 1);
+        -moz-box-shadow: -1px 9px 48px -19px rgba(0, 0, 0, 1);
+        box-shadow: -1px 9px 48px -19px rgba(0, 0, 0, 1);
+    }
+
+    .whatsp:hover{
+        transition: ease 600ms;
+        -ms-transform: scale(1.6); /* IE 9 */
+        -webkit-transform: scale(1.6); /* Safari 3-8 */
+        transform: scale(1.6);
+
+    }
+
+    .whatsp img{
+        width: 20%;
+    }
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+      }
+
+      .Dashboard{
+          padding-top: 40px;
+      }
+
+      .DashboardOne{
+          background-color: white;
+          margin: 40px;
+          padding: 40px;
+          color: black;
+          border-radius:  3% ;
+          -webkit-box-shadow: -1px 9px 48px -19px rgb(170, 170, 170);
+          -moz-box-shadow: -1px 9px 48px -19px rgba(0, 0, 0, 1);
+          box-shadow: -1px 9px 48px -19px rgba(0, 0, 0, 1);
+      }
+
